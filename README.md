@@ -2,7 +2,7 @@
 
 ## Network Architecture
 
-![AWS VPC Architecture](diagrams/aws-vpc-architecture.png)
+![AWS VPC Architecture](aws-vpc-architecture.png)
 
 ## Project Overview
 

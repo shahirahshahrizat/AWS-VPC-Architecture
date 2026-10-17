@@ -1,5 +1,9 @@
 # AWS-VPC-Architecture
 
+## Network Architecture
+
+![AWS VPC Architecture](diagrams/aws-vpc-architecture.png)
+
 ## Project Overview
 
 This project explores the design and configuration of an Amazon Virtual Private Cloud (VPC) with segmented public and private subnets.

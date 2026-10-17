@@ -1,9 +1,43 @@
 # AWS-VPC-Architecture
 
-Build a VPC with a private and public subnet, an internet gateway, and a NAT gateway.
+## Project Overview
 
-Configure route tables associated with subnets to local and internet-bound traffic by using an internet gateway and a NAT gateway.
+This project explores the design and configuration of an Amazon Virtual Private Cloud (VPC) with segmented public and private subnets.
 
-Launch a bastion server in a public subnet.
+The objective is to understand how AWS networking components work together to provide network connectivity, traffic routing, and access control.
 
-Use a bastion server to log in to an instance in a private subnet.
+## Technologies Used
+
+- Amazon VPC
+- Amazon EC2
+- Public and Private Subnets
+- Internet Gateway
+- NAT Gateway
+- Route Tables
+- Security Groups
+- Network Access Control Lists (NACLs)
+
+## Architecture Design
+
+The architecture separates public-facing resources from private resources using dedicated subnets and routing configurations.
+
+## Implementation
+
+1. Created an Amazon VPC and configured its CIDR block.
+2. Configured public and private subnets.
+3. Set up an Internet Gateway for internet connectivity.
+4. Configured routing for public and private subnets.
+5. Configured a NAT Gateway for outbound connectivity from private subnets.
+6. Applied security groups and network ACL rules.
+
+## Key Learnings
+
+- VPC architecture and CIDR planning
+- Public versus private subnet routing
+- Internet Gateway and NAT Gateway functionality
+- Stateful security groups and stateless NACLs
+- Network isolation and access control
+
+## Future Improvements
+
+Potential improvements include infrastructure automation using Terraform, multi-Availability Zone deployment, VPC endpoints, and monitoring with VPC Flow Logs.
